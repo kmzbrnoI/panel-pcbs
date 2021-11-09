@@ -62,17 +62,6 @@ $EndComp
 Wire Wire Line
 	2100 1600 2100 1700
 $Comp
-L Connector:TestPoint COPLUS1
-U 1 1 61887291
-P 3900 1750
-F 0 "COPLUS1" H 3958 1868 50  0000 L CNN
-F 1 "pad" H 3958 1777 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 4100 1750 50  0001 C CNN
-F 3 "~" H 4100 1750 50  0001 C CNN
-	1    3900 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push_DPDT SWPLUS1
 U 1 1 61889CBB
 P 4000 2050
@@ -84,10 +73,10 @@ F 3 "~" H 4000 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint CIPLUS1
+L Connector:TestPoint IPLUS1
 U 1 1 61885982
 P 2100 2500
-F 0 "CIPLUS1" H 2042 2526 50  0000 R CNN
+F 0 "IPLUS1" H 2042 2526 50  0000 R CNN
 F 1 "pad" H 2042 2617 50  0000 R CNN
 F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 2300 2500 50  0001 C CNN
 F 3 "~" H 2300 2500 50  0001 C CNN
@@ -160,10 +149,10 @@ $EndComp
 Wire Wire Line
 	2750 1600 2750 1700
 $Comp
-L Connector:TestPoint CIMINUS1
+L Connector:TestPoint IMINUS1
 U 1 1 618B70AD
 P 2750 2500
-F 0 "CIMINUS1" H 2692 2526 50  0000 R CNN
+F 0 "IMINUS1" H 2692 2526 50  0000 R CNN
 F 1 "pad" H 2692 2617 50  0000 R CNN
 F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 2950 2500 50  0001 C CNN
 F 3 "~" H 2950 2500 50  0001 C CNN
@@ -172,8 +161,6 @@ F 3 "~" H 2950 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2750 2400 2750 2500
-Wire Wire Line
-	3900 1750 3900 1850
 Wire Wire Line
 	3800 2250 3800 2350
 $Comp
@@ -188,10 +175,10 @@ F 3 "" H 5300 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint COMINUS1
+L Connector:TestPoint OMINUS1
 U 1 1 618C035B
 P 5400 1750
-F 0 "COMINUS1" H 5458 1868 50  0000 L CNN
+F 0 "OMINUS1" H 5458 1868 50  0000 L CNN
 F 1 "pad" H 5458 1777 50  0000 L CNN
 F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 5600 1750 50  0001 C CNN
 F 3 "~" H 5600 1750 50  0001 C CNN
@@ -261,4 +248,41 @@ F 3 "~" H 2850 3250 50  0001 C CNN
 	1    2850 3250
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	3900 1750 3900 1850
+$Comp
+L Connector:TestPoint OPLUS1
+U 1 1 61887291
+P 3900 1750
+F 0 "OPLUS1" H 3958 1868 50  0000 L CNN
+F 1 "pad" H 3958 1777 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 4100 1750 50  0001 C CNN
+F 3 "~" H 4100 1750 50  0001 C CNN
+	1    3900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint GND1
+U 1 1 618B1FC3
+P 3250 3250
+F 0 "GND1" V 3200 3450 50  0000 L CNN
+F 1 "pad" V 3300 3450 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 3450 3250 50  0001 C CNN
+F 3 "~" H 3450 3250 50  0001 C CNN
+	1    3250 3250
+	0    1    1    0   
+$EndComp
+Connection ~ 3250 3250
+$Comp
+L Connector:TestPoint VCC1
+U 1 1 618B34CD
+P 2850 3250
+F 0 "VCC1" V 2800 3450 50  0000 L CNN
+F 1 "pad" V 2900 3450 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 3050 3250 50  0001 C CNN
+F 3 "~" H 3050 3250 50  0001 C CNN
+	1    2850 3250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2850 3250
 $EndSCHEMATC
