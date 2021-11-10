@@ -1,7 +1,9 @@
 all: panel.kicad_pcb fab
 
 panel.kicad_pcb: turnout-single-kicad.kicad_pcb Makefile
-	kikit panelize grid --space 3 --gridsize 3 3 --tabwidth 16 --tabheight 8 --radius 1 \
+	kikit panelize grid \
+		--space 3 --gridsize 3 3 --tabwidth 5 --tabheight 5 --radius 1 \
+		--mousebites 0.3 0.6 0.25 \
 		turnout-single-kicad.kicad_pcb panel.kicad_pcb
 
 fab: panel.kicad_pcb Makefile
