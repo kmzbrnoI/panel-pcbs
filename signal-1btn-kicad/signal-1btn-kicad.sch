@@ -265,7 +265,7 @@ U 1 1 61883B3D
 P 3400 3250
 F 0 "H1" H 3500 3296 50  0000 L CNN
 F 1 "MountingHole" H 3500 3205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3400 3250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3400 3250 50  0001 C CNN
 F 3 "~" H 3400 3250 50  0001 C CNN
 	1    3400 3250
 	1    0    0    -1  
@@ -276,7 +276,7 @@ U 1 1 61886D3D
 P 3400 3450
 F 0 "H2" H 3500 3496 50  0000 L CNN
 F 1 "MountingHole" H 3500 3405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3400 3450 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3400 3450 50  0001 C CNN
 F 3 "~" H 3400 3450 50  0001 C CNN
 	1    3400 3450
 	1    0    0    -1  
