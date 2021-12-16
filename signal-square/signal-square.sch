@@ -41,7 +41,7 @@ U 1 1 6187A3A8
 P 3250 2450
 F 0 "D2" H 3250 2225 50  0000 C CNN
 F 1 "BAT54W" H 3250 2316 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering" H 3250 2275 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3250 2275 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf" H 3250 2450 50  0001 C CNN
 	1    3250 2450
 	-1   0    0    1   
