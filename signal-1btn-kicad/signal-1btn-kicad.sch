@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Manual panel control 1-button signal (shunt)"
 Date "2021-11-07"
-Rev ""
+Rev "2.0"
 Comp ""
 Comment1 ""
 Comment2 ""
