@@ -60,5 +60,5 @@ eagle.epf
 *.epf
 fab
 *-cache*
-panel.kicad_pcb
+panel.*
 *-bak
